@@ -3,13 +3,13 @@
 # MMDVM-OPENWRT
 
 # 修改默认IP
-sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名称
-sed -i 's/ImmortalWrt/MMDVM/g' package/base-files/files/bin/config_generate
+# sed -i 's/Openwrt/Ostar/g' package/base-files/files/bin/config_generate
 
 # 修改默认wifi名称ssid为
-sed -i 's/ssid=ImmortalWrt/ssid=MMDVM_4G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# sed -i 's/ssid=ImmortalWrt/ssid=MMDVM_4G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # 开启MU-MIMO
 sed -i 's/mu_beamformer=0/mu_beamformer=1/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
