@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 4G MMDVM
+name: MT7620
 
 on:
   repository_dispatch:
