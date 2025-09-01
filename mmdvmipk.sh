@@ -18,4 +18,4 @@ sed -i 's/mu_beamformer=0/mu_beamformer=1/g' package/kernel/mac80211/files/lib/w
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 
 # 修改默认主题
-sed -i 's/luci-theme-bootstrap/Bootstrap_MMDVM/g' ./feeds/luci/collections/luci/Makefile
+# sed -i 's/luci-theme-bootstrap/Bootstrap_MMDVM/g' ./feeds/luci/collections/luci/Makefile
