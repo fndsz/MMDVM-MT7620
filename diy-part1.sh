@@ -15,3 +15,5 @@
 
 # Add a feed source
 git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm/mmdvm-openwrt
+git clone https://github.com/siwind/luci-app-wolplus package/wolplus
+git clone https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community package/luci-app-tailscale-community
